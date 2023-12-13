@@ -1,8 +1,9 @@
 <template>
-    <header>
-      <!-- Contenido del encabezado -->
-      <h4>Taller</h4>
-    </header>
+    <main>
+      <!-- Contenido principal -->
+        <h2>linea prod Principal</h2>
+      
+    </main>
   </template>
   
   <script>
@@ -10,5 +11,5 @@
     // Lógica del componente si es necesaria
   }
   </script>
+
   
- 

@@ -1,0 +1,64 @@
+/* Variables globales */
+:root {
+  --primary-color: #007bff;
+  /* Define variables para colores, fuentes, etc. */
+  --secondary-color: #6c757d;
+  --font-family: 'Arial', sans-serif;
+}
+
+/* Estilos globales */
+/* Estilos para elementos comunes */
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Estilos para componentes específicos */
+.my-component {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.my-component h1 {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.my-component p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+ /* Estilos específicos para el encabezado */
+ header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+/* Estilos específicos para la barra lateral */
+aside {
+  background-color: #f2f2f2;
+  padding: 1px;
+  position: fixed;
+}
+ /* Estilos específicos para el cuerpo */
+ main {
+  margin-left: 80px; /* Ancho de la barra lateral + margen */
+}
+/* Estilos específicos para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 0px 20px 0px 0px;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  width: 100%;
+}
+
