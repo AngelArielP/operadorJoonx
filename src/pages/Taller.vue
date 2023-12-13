@@ -28,7 +28,8 @@ export default {
             machineImage: 'https://i.imgur.com/lgkzDTv.png',
             machineAlt: 'Imagen de la máquina 001',
             button1Text: 'Produccion lenta',
-            colorCard: '#E0C17D',
+            colorCard: '#DAAD0A',
+            colorCard2: '#A8850D',
             additionalContent: ['Contenido1', 'Contenido2', 'Contenido3'],
             updateText: '  actualizado - 2min'
           }
@@ -39,7 +40,8 @@ export default {
             machineImage: 'https://i.imgur.com/lgkzDTv.png',
             machineAlt: 'Imagen de la máquina 002',
             button1Text: 'En Operacion',
-            colorCard: '#6A8A64',
+            colorCard: '#67C459',
+            colorCard2: '#1F9F0E',
             additionalContent: ['Contenido21', 'Contenido2', 'Contenido3'],
             updateText: '  actualizado - 3min'
           }
@@ -50,7 +52,8 @@ export default {
             machineImage: 'https://i.imgur.com/lgkzDTv.png',
             machineAlt: 'Imagen de la máquina 003',
             button1Text: 'Alerta',
-            colorCard: ['#C47358',],
+            colorCard: '#C47358',
+            colorCard2: '#A02F0D',
             additionalContent: ['Contenido21', 'Contenido2', 'Contenido3'],
             updateText: '  actualizado - 3min'
           }
@@ -61,7 +64,8 @@ export default {
             machineImage: 'https://i.imgur.com/lgkzDTv.png',
             machineAlt: 'Imagen de la máquina 004',
             button1Text: 'Fuera de linea',
-            colorCard: '#C4C4C4',
+            colorCard: '#E9E5E4',
+            colorCard2: '#C4C4C4',
             additionalContent: ['Contenido21', 'Contenido2', 'Contenido3'],
             updateText: '  actualizado - 3min'
           }
