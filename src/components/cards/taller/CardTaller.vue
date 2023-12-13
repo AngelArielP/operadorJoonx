@@ -15,9 +15,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <button class="btn btn-primary " id="labelStatus">
-                                    <p>{{ button1Text }}</p>
-                                </button>
+                                <button :style="{ backgroundColor: colorCard }" class="btn" id="labelStatus" disable>{{ button1Text }}</button>
+                          
                             </div>
                             <div class="col">
                                 <button class="btn btn-secondary"><i class="fa-brands fa-whmcs fa-spin"></i></button>
@@ -97,6 +96,7 @@ export default {
     machineImage: String,
     machineAlt: String,
     button1Text: String,
+    colorCard:String,
     additionalContent: Array,
     updateText: String
   }
@@ -120,7 +120,6 @@ export default {
     font-size: 0.7rem;
     text-align: left;
     padding-top: 8%;
-    background-color: #E0C17D;
     border-radius: 1%;
     font-weight: 900;
 
