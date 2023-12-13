@@ -21,39 +21,31 @@ a {
 }
 
 /* Estilos para componentes específicos */
-.my-component {
-  padding: 20px;
-  border: 1px solid #ccc;
-}
 
-.my-component h1 {
-  color: var(--primary-color);
-  font-size: 24px;
-}
-
-.my-component p {
-  font-size: 16px;
-  line-height: 1.6;
-}
- /* Estilos específicos para el encabezado */
- header {
-  background-color: #333;
+/* Estilos específicos para el encabezado */
+header {
+  background-color: #002332;
   color: white;
   padding: 10px;
 }
+
 /* Estilos específicos para la barra lateral */
 aside {
-  background-color: #f2f2f2;
+  background-image:url(https://i.imgur.com/ECeRWuq.png) ;
   padding: 1px;
-  position: fixed;
+  position: absolute;
+  z-index: 1;
 }
- /* Estilos específicos para el cuerpo */
- main {
-  margin-left: 80px; /* Ancho de la barra lateral + margen */
+
+/* Estilos específicos para el cuerpo */
+main {
+  margin-left: 70px;
+  /* Ancho de la barra lateral + margen */
 }
+
 /* Estilos específicos para el pie de página */
 footer {
-  background-color: #333;
+  background-color: #002332;
   color: white;
   padding: 0px 20px 0px 0px;
   position: fixed;
@@ -61,4 +53,3 @@ footer {
   text-align: right;
   width: 100%;
 }
-
