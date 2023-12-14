@@ -24,8 +24,8 @@ export default {
         {
           component: 'CardLineaPro',
           props: {
-            machineName: 'Maquina 001',
-            machineImage: 'https://i.imgur.com/lgkzDTv.png',
+            machineName: 'PRE1001',
+            machineImage: 'https://i.imgur.com/bpG3BkK.png',
             machineAlt: 'Imagen de la máquina 001',
             button1Text: 'Produccion lenta',
             colorCard: '#DAAD0A',
@@ -36,8 +36,8 @@ export default {
         }, {
           component: 'CardLineaPro',
           props: {
-            machineName: 'Maquina 002',
-            machineImage: 'https://i.imgur.com/lgkzDTv.png',
+            machineName: 'PRE1002',
+            machineImage: 'https://i.imgur.com/bpG3BkK.png',
             machineAlt: 'Imagen de la máquina 002',
             button1Text: 'En Operacion',
             colorCard: '#67C459',
@@ -48,8 +48,8 @@ export default {
         },{
           component: 'CardLineaPro',
           props: {
-            machineName: 'Maquina 003',
-            machineImage: 'https://i.imgur.com/lgkzDTv.png',
+            machineName: 'PRE103',
+            machineImage: 'https://i.imgur.com/bpG3BkK.png',
             machineAlt: 'Imagen de la máquina 003',
             button1Text: 'Alerta',
             colorCard: '#C47358',
@@ -60,8 +60,8 @@ export default {
         },{
           component: 'CardLineaPro',
           props: {
-            machineName: 'Maquina 004',
-            machineImage: 'https://i.imgur.com/lgkzDTv.png',
+            machineName: 'PRE104',
+            machineImage: 'https://i.imgur.com/bpG3BkK.png',
             machineAlt: 'Imagen de la máquina 004',
             button1Text: 'Fuera de linea',
             colorCard: '#E9E5E4',
